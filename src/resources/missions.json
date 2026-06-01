@@ -1,0 +1,106 @@
+[
+  {
+    "Event": "EventPlayerDeath",
+    "Target": "Attacker",
+    "Amount": 500,
+    "RewardCommands": ["sw_givecredits {steamid64} 1000", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "1000 jewels ir 1 random dėžę",
+    "Phrase": "Nužudyk 500 žaidėjų"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "Target": "Attacker",
+    "Amount": 1000,
+    "RewardCommands": ["sw_givecredits {steamid64} 2000", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "2000 jewels ir 1 random dėžę",
+    "Phrase": "Nužudyk 1000 žaidėjų"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "EventProperties": {
+      "Weapon": "deagle",
+      "Headshot": true
+    },
+    "Target": "Attacker",
+    "Amount": 50,
+    "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "500 jewels ir 1 random dėžę",
+    "Phrase": "Gauk 50 headshot'ų su Deagle"
+  },
+  {
+    "Event": "EventPlayerDeath",
+    "EventProperties": {
+      "Weapon": "ssg08",
+      "Headshot": true
+    },
+    "Target": "Attacker",
+    "Amount": 50,
+    "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "500 jewels ir 1 random dėžę",
+    "Phrase": "Gauk 50 headshot'ų su Scout'u (SSG08)"
+  },
+  {
+    "Event": "EventBombPlanted",
+    "Target": "Userid",
+    "Amount": 20,
+    "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "500 jewels ir 1 random dėžę",
+    "Phrase": "Padėk 20 bombų"
+  },
+  {
+    "Event": "EventBombDefused",
+    "Target": "Userid",
+    "Amount": 20,
+    "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "500 jewels ir 1 random dėžę",
+    "Phrase": "Išminuok 20 bombų"
+  },
+  {
+    "Event": "EventHostageRescued",
+    "Target": "Userid",
+    "Amount": 10,
+    "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
+    "RewardPhrase": "500 jewels ir 1 random dėžę",
+    "Phrase": "Išgelbėk 10 įkaitų"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 30,
+    "RewardCommands": ["sw_givecase {steamid64} 1"],
+    "RewardPhrase": "1 random dėžę",
+    "Phrase": "Praleisk 30min serveryje"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 120,
+    "RewardCommands": ["sw_givecase {steamid64} 2"],
+    "RewardPhrase": "2 random dėžes",
+    "Phrase": "Praleisk 2val serveryje"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 600,
+    "RewardCommands": ["sw_givecredits {steamid64} 400", "sw_givecase {steamid64} 3"],
+    "RewardPhrase": "400 jewels ir 3 random dėžes",
+    "Phrase": "Praleisk 10val serveryje"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 900,
+    "RewardCommands": ["sw_givecredits {steamid64} 800", "sw_givecase {steamid64} 4"],
+    "RewardPhrase": "800 jewels ir 4 random dėžes",
+    "Phrase": "Praleisk 15val serveryje"
+  },
+  {
+    "Event": "PlayTime",
+    "Target": "Userid",
+    "Amount": 1200,
+    "RewardCommands": ["sw_givecredits {steamid64} 1000", "sw_givecase {steamid64} 5"],
+    "RewardPhrase": "1000 jewels ir 5 random dėžes",
+    "Phrase": "Praleisk 20val serveryje"
+  }
+]

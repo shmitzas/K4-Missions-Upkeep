@@ -1,0 +1,28 @@
+{
+  // General
+  "k4.general.prefix": "[silver][ [lime]K4-Missions [silver]]",
+
+  // Mission notifications
+  "k4.missions.new_mission": "[silver]You have [lime]{0} [silver]new missions! Use [lime]!{1} [silver]to view them.",
+  "k4.missions.complete_mission": "[silver]You have completed [lime]{0} [silver]mission and earned [lime]{1}[silver]!",
+  "k4.missions.loading": "Your mission data is loading, please try again in a moment.",
+  "k4.missions.no_missions": "No missions available",
+  "k4.missions.dailyreset": "[lightred]A new day, new challenges! All your missions have been reset.",
+
+  // Menu
+  "k4.missions.menu.title": "Missions",
+  "k4.missions.menu.mission": "Mission #{0}",
+  "k4.missions.menu.playerlimit": "Need {0} players to progress",
+  "k4.missions.menu.vip_locked": "VIP Only",
+  "k4.missions.menu.reset.map": "Resets on map change",
+  "k4.missions.menu.reset.instant": "New mission on completion",
+  "k4.missions.menu.reset.time": "Resets in {0}h {1}m",
+  "k4.missions.menu.reset.days": "Resets in {0}d {1}h {2}m",
+
+  // Chat Details
+  "k4.missions.detail.header": "[lime]--- Mission #{0} ---",
+  "k4.missions.detail.task": "[silver]Task: [white]{0}",
+  "k4.missions.detail.progress": "[silver]Progress: [yellow]{0}[silver]/[lime]{1}",
+  "k4.missions.detail.completed": "[lime]✓ Completed!",
+  "k4.missions.detail.reward": "[silver]Reward: [gold]{0}"
+}
