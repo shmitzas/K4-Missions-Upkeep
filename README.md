@@ -27,7 +27,7 @@
 
 1. Install [SwiftlyS2](https://github.com/swiftly-solution/swiftlys2) on your server
 2. Configure your database connection in SwiftlyS2's `database.jsonc` (MySQL, PostgreSQL, or SQLite)
-3. [Download the latest release](https://github.com/K4ryuu/K4-Missions-SwiftlyS2/releases/latest)
+3. [Download the latest release](https://github.com/shmitzas/K4-Missions-Upkeep/releases/latest)
 4. Extract to your server's `swiftlys2/plugins/` directory
 5. Configure `config.json` and `missions.json` in the plugin folder
 6. Restart your server - database tables will be created automatically
