@@ -4,6 +4,13 @@
   <a align="center">A dynamic mission system for Counter-Strike 2 using SwiftlyS2 framework. Create custom missions with configurable events, rewards, and reset modes.</a>
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
+  <img src="https://img.shields.io/github/downloads/Shmitzas/K4-Missions-Upkeep/total?style=flat&logo=github&cacheSeconds=3600" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/Shmitzas/K4-Missions-Upkeep?style=flat&logo=github&cacheSeconds=3600" alt="Stars">
+  <img src="https://img.shields.io/github/license/Shmitzas/K4-Missions-Upkeep" alt="License">
+</p>
+
 # Important notice!
 > [!IMPORTANT]  
 > [K4ryuu](https://github.com/K4ryuu) is the creator of this plugin.<br>
