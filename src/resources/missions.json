@@ -4,16 +4,16 @@
     "Target": "Attacker",
     "Amount": 500,
     "RewardCommands": ["sw_givecredits {steamid64} 1000", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "1000 jewels ir 1 random dėžę",
-    "Phrase": "Nužudyk 500 žaidėjų"
+    "RewardPhrase": "1000 credits and 1 random case",
+    "Phrase": "Kill 500 players"
   },
   {
     "Event": "EventPlayerDeath",
     "Target": "Attacker",
     "Amount": 1000,
     "RewardCommands": ["sw_givecredits {steamid64} 2000", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "2000 jewels ir 1 random dėžę",
-    "Phrase": "Nužudyk 1000 žaidėjų"
+    "RewardPhrase": "2000 credits and 1 random case",
+    "Phrase": "Kill 1000 players"
   },
   {
     "Event": "EventPlayerDeath",
@@ -24,8 +24,8 @@
     "Target": "Attacker",
     "Amount": 50,
     "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "500 jewels ir 1 random dėžę",
-    "Phrase": "Gauk 50 headshot'ų su Deagle"
+    "RewardPhrase": "500 credits and 1 random case",
+    "Phrase": "Get 50 headshots with the Deagle"
   },
   {
     "Event": "EventPlayerDeath",
@@ -36,71 +36,71 @@
     "Target": "Attacker",
     "Amount": 50,
     "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "500 jewels ir 1 random dėžę",
-    "Phrase": "Gauk 50 headshot'ų su Scout'u (SSG08)"
+    "RewardPhrase": "500 credits and 1 random case",
+    "Phrase": "Get 50 headshots with the Scout (SSG08)"
   },
   {
     "Event": "EventBombPlanted",
     "Target": "Userid",
     "Amount": 20,
     "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "500 jewels ir 1 random dėžę",
-    "Phrase": "Padėk 20 bombų"
+    "RewardPhrase": "500 credits and 1 random case",
+    "Phrase": "Plant 20 bombs"
   },
   {
     "Event": "EventBombDefused",
     "Target": "Userid",
     "Amount": 20,
     "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "500 jewels ir 1 random dėžę",
-    "Phrase": "Išminuok 20 bombų"
+    "RewardPhrase": "500 credits and 1 random case",
+    "Phrase": "Defuse 20 bombs"
   },
   {
     "Event": "EventHostageRescued",
     "Target": "Userid",
     "Amount": 10,
     "RewardCommands": ["sw_givecredits {steamid64} 500", "sw_givecase {steamid64} 1"],
-    "RewardPhrase": "500 jewels ir 1 random dėžę",
-    "Phrase": "Išgelbėk 10 įkaitų"
+    "RewardPhrase": "500 credits and 1 random case",
+    "Phrase": "Rescue 10 hostages"
   },
   {
     "Event": "PlayTime",
     "Target": "Userid",
     "Amount": 30,
     "RewardCommands": ["sw_givecase {steamid64} 1"],
-    "RewardPhrase": "1 random dėžę",
-    "Phrase": "Praleisk 30min serveryje"
+    "RewardPhrase": "1 random case",
+    "Phrase": "Spend 30 minutes on the server"
   },
   {
     "Event": "PlayTime",
     "Target": "Userid",
     "Amount": 120,
     "RewardCommands": ["sw_givecase {steamid64} 2"],
-    "RewardPhrase": "2 random dėžes",
-    "Phrase": "Praleisk 2val serveryje"
+    "RewardPhrase": "2 random cases",
+    "Phrase": "Spend 2 hours on the server"
   },
   {
     "Event": "PlayTime",
     "Target": "Userid",
     "Amount": 600,
     "RewardCommands": ["sw_givecredits {steamid64} 400", "sw_givecase {steamid64} 3"],
-    "RewardPhrase": "400 jewels ir 3 random dėžes",
-    "Phrase": "Praleisk 10val serveryje"
+    "RewardPhrase": "400 credits and 3 random cases",
+    "Phrase": "Spend 10 hours on the server"
   },
   {
     "Event": "PlayTime",
     "Target": "Userid",
     "Amount": 900,
     "RewardCommands": ["sw_givecredits {steamid64} 800", "sw_givecase {steamid64} 4"],
-    "RewardPhrase": "800 jewels ir 4 random dėžes",
-    "Phrase": "Praleisk 15val serveryje"
+    "RewardPhrase": "800 credits and 4 random cases",
+    "Phrase": "Spend 15 hours on the server"
   },
   {
     "Event": "PlayTime",
     "Target": "Userid",
     "Amount": 1200,
     "RewardCommands": ["sw_givecredits {steamid64} 1000", "sw_givecase {steamid64} 5"],
-    "RewardPhrase": "1000 jewels ir 5 random dėžes",
-    "Phrase": "Praleisk 20val serveryje"
+    "RewardPhrase": "1000 credits and 5 random cases",
+    "Phrase": "Spend 20 hours on the server"
   }
 ]
